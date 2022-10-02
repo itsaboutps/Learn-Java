@@ -5,7 +5,7 @@ public class OddEven {
         System.out.println("Input a number: ");
         Scanner scn = new Scanner(System.in);
         int inputNumber = scn.nextInt();
-
+        //for String input : next() and nextLine()
         if(inputNumber % 2 == 0){
             System.out.println("Input number "+inputNumber+ " is EVEN");
         }
