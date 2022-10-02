@@ -7,3 +7,5 @@ public class OddEven {
         System.out.println("Hello my world");
     }
 }
+
+
