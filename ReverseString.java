@@ -10,7 +10,6 @@ public class ReverseString {
         rev.revString(inp);
     }
     private void revString(String inps1){
-        char c[]=inps1.toCharArray();
         for (int i=inps1.length()-1;i>=0;i--) {
             System.out.print(inps1.charAt(i));
         }
