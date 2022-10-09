@@ -24,3 +24,5 @@ public class LeapYear {
       }
     }
   }
+  //run javac LeapYear.java
+  //run java LeapYear.java
