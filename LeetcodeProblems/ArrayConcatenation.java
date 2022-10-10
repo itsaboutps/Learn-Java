@@ -1,8 +1,6 @@
 //https://leetcode.com/problems/concatenation-of-array/
 //1929. Concatenation of Array
 package LeetcodeProblems;
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ArrayConcatenation {
