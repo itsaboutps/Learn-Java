@@ -10,7 +10,6 @@ public class GreatestNumberofCandies {
         int largestElement=largestNumberInArray(arr);
         greatestNumberofCandies(arr,3,largestElement);
     }
-
     private static int largestNumberInArray(int[] arr) {
         int max=arr[0];
         for(int i=0;i<arr.length;i++){
