@@ -20,8 +20,5 @@ public class ShuffleArray {
             k+=1;
         }
         System.out.print(Arrays.toString(result));
-
-
-
     }
 }
