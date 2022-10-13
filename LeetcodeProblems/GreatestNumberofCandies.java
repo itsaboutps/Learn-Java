@@ -1,8 +1,6 @@
 //https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 package LeetcodeProblems;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class GreatestNumberofCandies {
@@ -24,7 +22,6 @@ public class GreatestNumberofCandies {
     }
 
     private static void greatestNumberofCandies(int[] arr, int extra,int largestElement) {
-        // boolean arrNew[]=new boolean[arr.length];
         List<Boolean> arrNew=new ArrayList<>(arr.length);
 
         for (int i=0;i<arr.length;i++) {
@@ -34,11 +31,9 @@ public class GreatestNumberofCandies {
             else{
                 arrNew.add(false);
             }
-
-            
         }
-        List<Boolean> list=new ArrayList<>(5);
         System.out.print(arrNew);
-
     }
 }
+//git commit --date="10 day ago" -m "Your commit message" 
+
