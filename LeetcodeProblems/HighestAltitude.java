@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/find-the-highest-altitude/submissions/
 package LeetcodeProblems;
-
+//discussed two approaches here
 import java.util.Arrays;
 
 public class HighestAltitude {
